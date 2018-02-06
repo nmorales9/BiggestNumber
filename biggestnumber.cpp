@@ -15,17 +15,17 @@ int main()
   
   int wholenumber2;
   cin>> wholenumber2;
-
-  cout<<"Of those two numbers, the biggest is: ";
-
+  int biggest;
   if (wholenumber1 >= wholenumber2)
   {
-    cout<< wholenumber1;
+    biggest= wholenumber1;
   }
   else
   {
-  cout<< wholenumber2;
+  biggest= wholenumber2;
   }
+  cout<<"Of those two numbers, the biggest is: "<<biggest;
+
 
   cout<<endl<<"Thank you for playing.\n";
 
